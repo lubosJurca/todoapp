@@ -3,10 +3,10 @@
     class="h-48 bg-bgMobileLight sm:bg-bgDesktopLight dark:bg-bgMobileDark sm:dark:bg-bgDesktopDark bg-no-repeat bg-cover px-6 py-10 font-Josefin max-w-7xl mx-auto"
   >
     <div class="flex justify-between text-xl mb-10 max-w-lg mx-auto">
-      <img src="../public/images/todoLogoSvg.svg" alt="Logo" />
+      <img src="/todoLogoSvg.svg" alt="Logo" />
       <button  @click="toggleDark()">
-        <img src="../public/images/icon-moon.svg" alt="Dark Mode" v-if="!isDark"/>
-        <img src="../public/images/icon-sun.svg" alt="Light Mode" v-else />
+        <img src="/icon-moon.svg" alt="Dark Mode" v-if="!isDark"/>
+        <img src="/icon-sun.svg" alt="Light Mode" v-else />
       </button>
     </div>
 

@@ -19,7 +19,7 @@
               class="w-5 h-5 absolute left-5 cursor-pointer transition"
               @click="toggleTask(task.id)"
             >
-              <img src="../../public/images/doneIcon.svg" v-if="task.done" />
+              <img src="/doneIcon.svg" v-if="task.done" />
               <div
                 class="w-5 h-5 border rounded-full border-gray-400 dark:border-[#393A4B]"
                 v-else
@@ -37,7 +37,7 @@
               {{ task.title }}
             </p>
             <img
-              src="../../public/images/deleteBtn.svg"
+              src="/deleteBtn.svg"
               class="w-3 h-3 absolute right-5 cursor-pointer"
               @click="deleteTask(task.id)"
             />
