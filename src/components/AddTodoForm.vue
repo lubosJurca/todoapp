@@ -3,7 +3,7 @@
     <div class="w-5 h-5 border rounded-full border-gray-400 dark:border-[#393A4B] absolute left-5">
 
     </div>
-    <input type="text" placeholder="Create a new todo..." v-model="newTodo" class="w-full rounded px-12 py-3 outline-none text-xs sm:text-lg dark:bg-dark dark:text-[#C8CBE7]">
+    <input type="text" placeholder="Create a new todo..." v-model="newTodo" class="w-full rounded px-12 py-3 sm:py-5 outline-none text-xs sm:text-lg dark:bg-dark dark:text-[#C8CBE7]">
    </form>
 </template>
 

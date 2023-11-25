@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="tasksList.length > 0"
-    class="w-full   -mt-6 bg-white dark:bg-dark shadow-lg mb-4 sm:mb-0 border-b-[1px] dark:border-[#393A4B] text-xs sm:text-lg"
+    class="w-full -mt-6 sm:-mt-14 bg-white dark:bg-dark shadow-lg mb-4 sm:mb-0 border-b-[1px] dark:border-[#393A4B] text-xs sm:text-lg"
   >
     <draggable
       v-model="tasksList"
@@ -16,10 +16,10 @@
             class="flex  bg-white dark:bg-dark items-center relative text-[#494C6B] dark:text-[#C8CBE7] border-b-[1px] dark:border-[#393A4B]"
           >
             <div
-              class="w-5 h-5 absolute left-5 cursor-pointer transition"
+              class="w-5 h-5 absolute left-5 cursor-pointer transition "
               @click="toggleTask(task.id)"
             >
-              <img src="/doneIcon.svg" v-if="task.done" />
+              <img src="/doneIcon.svg" v-if="task.done"  />
               <div
                 class="w-5 h-5 border rounded-full border-gray-400 dark:border-[#393A4B]"
                 v-else
@@ -27,7 +27,7 @@
             </div>
 
             <p
-              class="w-full rounded px-12 py-3  outline-none transition cursor-grab"
+              class="w-full rounded px-14 py-4 sm:py-5  outline-none transition cursor-grab"
               :class="
                 task.done
                   ? 'text-[#D1D2DA] dark:text-[#4D5067] line-through'

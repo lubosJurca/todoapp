@@ -1,8 +1,8 @@
 <template>
   <header
-    class="h-48 bg-bgMobileLight sm:bg-bgDesktopLight dark:bg-bgMobileDark sm:dark:bg-bgDesktopDark bg-no-repeat bg-cover px-6 py-10 font-Josefin max-w-7xl mx-auto"
+    class="h-48 sm:h-72 bg-bgMobileLight sm:bg-bgDesktopLight dark:bg-bgMobileDark sm:dark:bg-bgDesktopDark bg-no-repeat bg-cover px-6 pt-16  font-Josefin max-w-7xl mx-auto"
   >
-    <div class="flex justify-between text-xl mb-10 max-w-lg mx-auto">
+    <div class="flex h-5 sm:h-10 justify-between text-xl mb-10 max-w-lg mx-auto">
       <img src="/todoLogoSvg.svg" alt="Logo" />
       <button  @click="toggleDark()">
         <img src="/icon-moon.svg" alt="Dark Mode" v-if="!isDark"/>
