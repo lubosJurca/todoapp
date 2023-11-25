@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bgMobileDark" : "url(./src/assets/images/bg-mobile-dark.jpg)",
-        "bgMobileLight" : "url(./src/assets/images/bg-mobile-light.jpg)",
-        "bgDesktopDark" : "url(./src/assets/images/bg-desktop-dark.jpg)",
-        "bgDesktopLight" : "url(./src/assets/images/bg-desktop-light.jpg)",
+        "bgMobileDark" : "url(./public/images/bg-mobile-dark.jpg)",
+        "bgMobileLight" : "url(./public/images/bg-mobile-light.jpg)",
+        "bgDesktopDark" : "url(./public/images/bg-desktop-dark.jpg)",
+        "bgDesktopLight" : "url(./public/images/bg-desktop-light.jpg)",
       },
       fontFamily: {
         "Josefin": ["Josefin Sans", "sans-serif"],
